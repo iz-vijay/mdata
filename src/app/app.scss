@@ -1,0 +1,135 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+
+// Variables Start
+
+$primary-color: #31b7e4; // Sea Blue
+$secondary-color: #3fb591; // Forrest Green
+$white: #ffffff; // White
+$black: #252525; // Mild Black
+$gray:#c8c7cc; //horizontal line light gray
+
+
+$facebook:#39579d;
+$twitter:#5fa8dd;
+$facebook:#35455c;
+
+
+$quarter-width:25%;
+$half-width:50%;
+$pull-width:100%;
+
+$pos-ab:absolute;
+$pos-rel:relative;
+$hide:none;
+// Variables End
+
+
+
+p{
+	font-size:16px; 
+	line-height:20px; }
+
+
+[data-bold="true"] {
+	font-weight:bold
+}
+
+[data-center="true"] {
+	text-align:center
+}
+
+[data-left="true"] {
+	text-align:left
+}
+
+[data-right="true"] {
+	text-align:right
+}
+
+.position-r{position: relative;}
+
+
+// Gradient assets
+
+ion-header, //common header
+.toolbar-background, // common header
+page-login ion-content, // login page 
+page-home ion-content, // home page
+signup ion-content, // signup page
+page-intro ion-content, // intro page
+page-fpwd ion-content
+{
+
+background: $primary-color; 
+// fallback for old browsers 
+background: -webkit-linear-gradient(to left, $primary-color , $secondary-color); 
+// Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to left, $primary-color , $secondary-color); 
+// W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+}
+
+.button-default {
+background: #00c6ff; 
+// fallback for old browsers 
+background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); 
+// Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00c6ff , #0072ff); 
+// W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+border:1px solid $white;
+        
+}
+
+
+//border radius
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.toolbar-title {
+	color:$white;
+}
+
+
+.test {
+	background-color:rgba ($black, 0.5)
+}
+
+form {
+	.item {
+		background-color:transparent
+	}
+
+	ion-label {
+		color:$white !important
+	}
+}
+
+
+
+
+//common section
+
+.back-button.show-back-button {
+    color: #fff;
+}

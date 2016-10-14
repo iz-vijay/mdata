@@ -1,0 +1,72 @@
+page-login {
+
+ion-label { text-transform: capitalize; }
+
+	.list .item-block:first-child  { 
+		border-top: 0px; }
+
+	.cutter {
+		 height: 2px;
+		 background-color:$gray;
+		 position:relative;
+		 margin:10px 0;
+			 
+			 &:before {
+				 content:"or";
+				 width:26px;
+				 height:26px;
+				 background:$white;
+				 color:$black;
+				 position: absolute;
+				 display: block;
+				 left: 0;
+				 right: 0;
+				 margin: auto;
+				 top: 0;
+				 bottom: 0;
+				 text-align: center;
+				 line-height: 24px;
+				 font-size: 18px;
+				  @include border-radius($half-width);
+			} // cutter:before
+	} // cutter
+
+	.social-media{
+		text-align: center;
+	    margin: 30px 0 10px; }
+
+	.social-media ion-icon {
+	    font-size: 1.8em;
+	    width: 40px;
+	    height: 40px;
+	    background:$black;
+	    line-height: 40px;
+	    text-align: center;
+	    color: #fff; margin: 0 4%;
+	    @include border-radius($half-width);
+	  }
+
+	  .reseat-pwd {
+	    position: absolute;right:0;bottom:0;
+		background: #e5e5e5;
+		width: 26px;
+		padding: 0px;
+		height: 26px;
+		text-align: center;
+		color: #252525;
+		z-index: 9;
+		font-weight: bold;
+	    @include border-radius($half-width); }
+
+	 .reseat-pwd.button-clear-wp{
+		right:17px;
+		bottom:9px}   
+
+	.new-user button {
+	    color:$black; }
+
+	.item {
+		background-color: transparent; }
+
+
+}

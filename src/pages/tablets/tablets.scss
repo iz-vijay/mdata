@@ -1,0 +1,11 @@
+page-tablets {
+
+	.tablet-count{text-align:center;}
+	
+   .tablet-count button{
+	    width: 60px;
+	    height: 60px;    font-size: 20px;
+	    margin: 2.8%; @include border-radius($half-width);
+	}
+	
+}

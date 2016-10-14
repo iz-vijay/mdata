@@ -1,0 +1,51 @@
+<!--
+  Generated template for the Signin page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle right>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sign in</ion-title>
+  </ion-navbar>
+</ion-header> 
+
+
+<ion-content padding>
+ 	<form id="" class="list">
+        <ion-list>
+            
+            <ion-item>
+            <ion-label floating>Email Address</ion-label>
+            <ion-input type="Email"></ion-input>
+            </ion-item>
+
+          <div class="position-r">
+            <button ion-button clear class="reseat-pwd" [navPush]="forgot">?</button>
+            <ion-item>
+              <ion-label floating>Password</ion-label>
+              <ion-input type="password"></ion-input>
+            </ion-item>
+         </div>   
+            
+        </ion-list>
+
+        <div padding><button ion-button full round [navPush]="oppill">Sign in</button></div>
+    </form>
+
+
+    <div class="cutter"></div>
+    <div class="social-media">
+    	<ion-icon name="logo-facebook"></ion-icon>
+    	<ion-icon name="logo-twitter"></ion-icon>
+    	<ion-icon name="logo-instagram"></ion-icon>
+    	<ion-icon name="logo-tumblr"></ion-icon>
+    </div>
+    <div class="new-user" data-center="true">
+        <button ion-button clear>New User? Signup</button>
+    </div>
+
+</ion-content>

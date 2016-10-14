@@ -1,0 +1,29 @@
+page-medication-details {
+
+
+	.list-ios > .item-block {
+    border-top: 0.55px solid #c8c7cc;
+}
+.card-ios ,.card-md,.card-wp{
+    margin: 0;
+    width: 100%;    box-shadow: none;
+}
+ion-label{color:#818282;white-space: normal;
+    line-height: 22px;}
+    .reminer{background-color:#dddddd; @include border-radius(10px);}
+.reminer {
+	padding: 20px;
+	.item-ios,.item-md,.item-wp{background-color: transparent;}
+	p{color:$black;}
+	.input-wrapper{display:$hide;}
+	ion-toggle {margin:20px auto 0!important;}
+	.toggle-wp .toggle-icon {background-color:$white;}
+}
+ion-note{color:$black!important;font-weight: bold;}
+.toggle-md .toggle-icon {
+    background-color: #bfbfbf;}
+
+
+
+
+}
