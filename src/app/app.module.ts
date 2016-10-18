@@ -10,6 +10,8 @@ import { Oppill } from '../pages/oppill/oppill';
 import { Medictation } from '../pages/medictation/medictation';
 import { MedicationDetails } from '../pages/medication-details/medication-details';
 import { Tablets } from '../pages/tablets/tablets';
+import { HealthCare } from '../pages/health-care/health-care';
+
 
 
 
@@ -26,7 +28,8 @@ import { Tablets } from '../pages/tablets/tablets';
     Oppill,
     Medictation,
     MedicationDetails,
-    Tablets
+    Tablets,
+    HealthCare
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -42,7 +45,8 @@ import { Tablets } from '../pages/tablets/tablets';
     Oppill,
     Medictation,
     MedicationDetails,
-    Tablets
+    Tablets,
+    HealthCare
   ],
   providers: []
 })

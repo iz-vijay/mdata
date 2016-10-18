@@ -63,10 +63,18 @@ ion-label { text-transform: capitalize; }
 		bottom:9px}   
 
 	.new-user button {
-	    color:$black; }
+	    color:$white; }
 
 	.item {
 		background-color: transparent; }
+.logo img{
+		max-width:80px; }
+h1.card-title{
+	color:$white;}	
+    .text-input-wp {
+    border: 2px solid rgb(255, 255, 255);}
 
 
 }
+
+

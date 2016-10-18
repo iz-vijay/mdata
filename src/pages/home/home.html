@@ -18,8 +18,12 @@
         <figure class="logo"><img src="assets/images/oppill-logo.png"> </figure>
         <h1 class="card-title" data-bold="true">Oppil</h1>
         <p>A simply way to remind care receiver to take medicine</p>
-        <button ion-button full round class="btn-login" [navPush]="login">Log in</button>
-        <button ion-button full round class="btn-signup" [navPush]="signup">Sign up </button>
+        <ion-row>
+          <div class="login-gutter">
+            <button ion-button full round class="btn-login" [navPush]="login">Log in</button>
+            <button ion-button full round class="btn-signup" [navPush]="signup">Sign up </button>
+          </div>
+        </ion-row>
 
       
     </section>

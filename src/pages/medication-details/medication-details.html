@@ -41,21 +41,26 @@
 				</button>
 
 				<ion-item>
-				<ion-range min="-200" max="200" [(ngModel)]="saturation" color="secondary">
+				<ion-range min="-200" max="200" [(ngModel)]="saturation1" color="secondary">
 				<ion-label range-left>0ns</ion-label>
 				<ion-label range-right>200ns</ion-label>
 				</ion-range>
 				</ion-item>
 			</div>
 		    
-		    <button ion-item [navPush]="tablets">
-		     Interval
-		      <ion-note item-right="">9hr</ion-note>
-		    </button>
-		   <button ion-item [navPush]="tablets">
-		      Frequency
-		      <ion-note item-right="">Daily</ion-note>
-		    </button>
+		    <div class="prescription">
+			    <button ion-item [navPush]="tablets">
+			     Interval
+			      <ion-note item-right="">9hr</ion-note>
+			    </button>
+		    </div>
+
+		    <div class="prescription">
+			   <button ion-item [navPush]="tablets">
+			      Frequency
+			      <ion-note item-right="">Daily</ion-note>
+			    </button>
+		    </div>
 			
 			<div class="reminer">
 				<p data-center="true"> Remind me to take this medication again in 9 hour(s)</p>

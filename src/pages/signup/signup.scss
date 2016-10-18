@@ -1,15 +1,16 @@
-page-signup {
+signup {
 		
 	.list .item-block:first-child  { 
 		border-top: 0px; }
+	
+	.text-input-wp{    
+		border: 2px solid $white;}
 
-		form {
-			.list {
-				.item {
-					background: transparent;
-				}
-			}
-		}
+	.list-md > .item-block:first-child,
+	.list-ios > .item-block:first-child {
+		border-top:0px; }
+
+	// form{margin:40px 0 0;}	
 	
 	
 }

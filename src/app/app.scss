@@ -24,6 +24,8 @@ $secondary-color: #3fb591; // Forrest Green
 $white: #ffffff; // White
 $black: #252525; // Mild Black
 $gray:#c8c7cc; //horizontal line light gray
+$gray-light:#eaeaea; 
+$gray-dark:#e0e0e0; 
 
 
 $facebook:#39579d;
@@ -133,3 +135,17 @@ form {
 .back-button.show-back-button {
     color: #fff;
 }
+
+.login-gutter,
+.forgot-gutter {
+    margin-top:5em;
+    width: 100%; }
+
+
+.header-ios,
+.header-wp { 
+	-moz-box-shadow:0 0 10px rgba($black, 0.5); 
+	-webkit-box-shadow:0 0 10px rgba($black, 0.5);
+	box-shadow:0 0 10px rgba($black, 0.5); }
+.toolbar-background-ios{
+	border: 0;}

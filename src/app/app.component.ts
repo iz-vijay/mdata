@@ -11,6 +11,8 @@ import { Oppill } from '../pages/oppill/oppill';
 import { Medictation } from '../pages/medictation/medictation';
 import { MedicationDetails } from '../pages/medication-details/medication-details';
 import { Tablets } from '../pages/tablets/tablets';
+import { HealthCare } from '../pages/health-care/health-care';
+
 
 
 
@@ -41,7 +43,10 @@ export class MyApp {
       {title: 'Oppill', component: Oppill },
       {title: 'Medictation', component: Medictation },
       {title: 'MedicationDetails', component: MedicationDetails },
-      {title: 'Tablets', component: Tablets }  
+      {title: 'Tablets', component: Tablets },
+      {title: 'HealthCare', component: HealthCare },
+  
+
     ];
 
   }

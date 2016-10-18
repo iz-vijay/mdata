@@ -1,0 +1,55 @@
+health-care {
+
+    .scroll-content {
+    position: static;
+    overflow-y: inherit;
+    overflow-x: inherit;
+    padding: 0!important;}
+
+    .item-check{
+    position:relative;
+    width:100%;
+    padding-top:100%;
+
+    img{border: 5px solid #d4d6d6; max-width:100%; height:100%;border-radius: 50%;}
+
+    input[type=checkbox] {display:none;}
+
+    input[type=checkbox] + label
+    {display:inline-block;position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;border-radius: 50%;}
+
+    input[type=checkbox]:checked + label:after{
+    content:"";
+    background: rgba(0, 0, 0, 0.54) url(../assets/images/check-tick-mark.png) no-repeat center;
+    position:absolute;
+    background-size: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    border-radius: 50%; 
+     max-width:60%;
+     max-height:60%;
+    }
+    input[type=checkbox]:checked + label >img{border: 5px solid #1e90ab;}
+
+
+    ion-col.item-check {
+    position: relative;
+    }
+
+    .item-check {
+    position: relative;
+    border-radius: 50%;
+    }
+
+    }
+
+
+}
